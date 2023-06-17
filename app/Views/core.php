@@ -111,8 +111,8 @@
                 <p class="contact-title">Domicile</p>
 
                 <address>
-                  Palu, Central Sulawesi or <br />
-                  Surabya, East Java
+                  Palu, Central Sulawesi and <br />
+                  Surabaya, East Java
                 </address>
               </div>
             </li>
@@ -142,6 +142,12 @@
             <li class="social-item">
               <a href="https://github.com/partadox" target="_blank" class="social-link">
                 <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://play.google.com/store/apps/dev?id=8497634079324571062&hl=en-ID" target="_blank" class="social-link">
+                <ion-icon name="logo-google-playstore"></ion-icon>
               </a>
             </li>
           </ul>
@@ -175,9 +181,9 @@
               <button class="navbar-link" data-nav-link>Blog</button>
             </li>
 
-            <!-- <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Watch</button>
-            </li> -->
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Stats</button>
+            </li>
           </ul>
         </nav>
 
@@ -186,7 +192,7 @@
       -->
 
         <article class="about active" data-page="about">
-          <header>
+          <header >
             <h2 class="h2 article-title">About me</h2>
           </header>
 
@@ -531,24 +537,61 @@
         - #Watch
       -->
 
-        <!-- <article class="about" data-page="watch">
+      <article class="stats" data-page="stats">
           <header>
-            <h2 class="h2 article-title">Watch List</h2>
+            <h2 class="h2 article-title">Stats</h2>
           </header>
 
-          <section class="contact-form">
-            <div class="row">
-                <div class="col">
-                    <h3 class="h3 form-title">Movie and Series</h3>
-                </div>
-                <div class="col">
-                    <h3 class="h3 form-title">Anime </h3>
-                </div>
-            </div>
-            
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                  <a href="https://www.imdb.com/user/ur73686449/ratings" target="_blank">
 
+                    <figure class="blog-banner-box">
+                      <img
+                        src="public/assets/images/imdb.jpg"
+                        alt="Arta Kusuma Movie Rating"
+                        loading="lazy"
+                      />
+                    </figure>
+
+                    <div class="blog-content">
+                      <div class="blog-meta">
+                        <p class="blog-category">Ratings</p>
+                      </div>
+
+                      <h3 class="h3 blog-item-title">
+                        My Watchlist Movie and Series Rating by IMDB
+                      </h3>
+                    </div>
+                  </a>
+                </li>
+                <li class="blog-post-item">
+                  <a href="https://kitsu.io/users/437803" target="_blank">
+
+                    <figure class="blog-banner-box">
+                      <img
+                        src="public/assets/images/anime.jpg"
+                        alt="Arta Kusuma Movie Rating"
+                        loading="lazy"
+                      />
+                    </figure>
+
+                    <div class="blog-content">
+                      <div class="blog-meta">
+                        <p class="blog-category">Ratings</p>
+                      </div>
+
+                      <h3 class="h3 blog-item-title">
+                        My Watchlist Anime by Kitsu
+                      </h3>
+                    </div>
+                  </a>
+                </li>
+            </ul>
           </section>
-        </article> -->
+          
+        </article>
       </div>
     </main>
 
