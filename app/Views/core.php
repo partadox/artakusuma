@@ -450,74 +450,29 @@
             <h2 class="h2 article-title">Portfolio</h2>
           </header>
 
-          <section class="projects">
-            <ul class="filter-list">
-              <li class="filter-item">
-                <button class="active" data-filter-btn>All</button>
-              </li>
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+                <?php foreach($porto as $pt): ?>
+                  <li class="blog-post-item">
+                    <a href="<?= $pt['content'] ?>" target="_blank">
 
-              <?php foreach($porto_cat as $pc): ?>
-                <li class="filter-item">
-                  <button data-filter-btn><?= $pc['category'] ?></button>
-                </li>
-              <?php endforeach; ?>
-            </ul>
+                      <div class="blog-content">
+                        <div class="blog-meta">
+                          <p class="blog-category"><?= esc($pt['category']) ?></p>
+                        </div>
 
-            <div class="filter-select-box">
-              <button class="filter-select" data-select>
-                <div class="select-value" data-selecct-value>
-                  Select category
-                </div>
-
-                <div class="select-icon">
-                  <ion-icon name="chevron-down"></ion-icon>
-                </div>
-              </button>
-
-              <ul class="select-list">
-                <li class="select-item">
-                  <button data-select-item>All</button>
-                </li>
-
-                <?php foreach($porto_cat as $pc): ?>
-                  <li class="select-item">
-                    <button data-select-item><?= $pc['category'] ?></button>
+                        <h3 class="h3 blog-item-title">
+                          <?= esc($pt['title']) ?>
+                        </h3>
+                      </div>
+                    </a>
                   </li>
                 <?php endforeach; ?>
-              </ul>
-            </div>
-
-            <ul class="project-list">
-              <?php foreach($porto as $pt): ?>
-                <li
-                  class="project-item active"
-                  data-filter-item
-                  data-category="<?= $pt['category'] ?>"
-                >
-                  <a href="porto?id=<?= $pt['id'] ?>">
-                    <figure class="project-img">
-                      <div class="project-item-icon-box">
-                        <ion-icon name="rocket-outline"></ion-icon>
-                      </div>
-
-                      <img
-                        src="public/assets/images/portfolio/<?= $pt['cover'] ?>"
-                        alt="<?= strtolower($pt['title']) ?>"
-                        loading="lazy"
-                      />
-                    </figure>
-
-                    <h3 class="project-title"><?= $pt['title'] ?></h3>
-
-                    <p class="project-category"><?= $pt['category'] ?></p>
-                  </a>
-                </li>
-                <?php endforeach; ?>
-              
             </ul>
           </section>
           
         </article>
+        
 
         <!--
         - #BLOG
@@ -536,14 +491,7 @@
             <ul class="blog-posts-list">
                 <?php foreach($blog as $bg): ?>
                   <li class="blog-post-item">
-                    <a href="blog?id=<?= $bg['id'] ?>">
-                      <figure class="blog-banner-box">
-                        <img
-                          src="public/assets/images/blog/<?= esc($bg['cover']) ?>"
-                          alt="<?= esc(strtolower($bg['title'])) ?>"
-                          loading="lazy"
-                        />
-                      </figure>
+                    <a href="<?= $bg['content'] ?>" target="_blank">
 
                       <div class="blog-content">
                         <div class="blog-meta">
@@ -557,24 +505,6 @@
                         <h3 class="h3 blog-item-title">
                           <?= esc($bg['title']) ?>
                         </h3>
-
-                        <p class="blog-text">
-                        <?php
-                            $description = $bg['content'];
-
-                            // Break the description into an array of words
-                            $words = explode(' ', $description);
-
-                            // Get the first 7 words
-                            $first_seven_words = array_slice($words, 0, 7);
-
-                            // Combine the first 7 words back into a string
-                            $short_description = implode(' ', $first_seven_words);
-
-                            // Print the short description
-                            echo $short_description;
-                          ?>
-                        </p>
                       </div>
                     </a>
                   </li>
