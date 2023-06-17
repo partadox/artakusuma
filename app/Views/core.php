@@ -561,7 +561,7 @@
                       </div>
 
                       <h3 class="h3 blog-item-title">
-                        My Watchlist Movie and Series Rating by IMDB
+                        List of my film and series watch ratings on IMDb
                       </h3>
                     </div>
                   </a>
@@ -583,7 +583,7 @@
                       </div>
 
                       <h3 class="h3 blog-item-title">
-                        My Watchlist Anime by Kitsu
+                        List of my anime watch ratings on Kitsu
                       </h3>
                     </div>
                   </a>
