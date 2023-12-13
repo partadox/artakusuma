@@ -46,7 +46,7 @@
           <figure class="avatar-box">
             <img
               src="public/assets/images/new-moon-face.svg"
-              alt="Arta Kusuma - Freelance Web Developer - Programmer Kota Palu Sulawesi Tengah"
+              alt="Arta Kusuma - Dosen Teknik Komputer ITS"
               width="80"
             />
           </figure>
@@ -54,11 +54,11 @@
           <div class="info-content">
             <h1 class="name" title="Arta Kusuma">Arta Kusuma H.</h1>
 
-            <p class="title">Software Engineer</p>
+            <p class="title">Lecturer</p>
           </div>
 
           <button class="info_more-btn" data-sidebar-btn>
-            <span>Show Contacts</span>
+            <span>Expand</span>
 
             <ion-icon name="chevron-down"></ion-icon>
           </button>
@@ -76,8 +76,8 @@
               <div class="contact-info">
                 <p class="contact-title">Email</p>
 
-                <a href="mailto:artakusuma@hotmail.com" class="contact-link"
-                title="Freelance Programmer Kota Palu" >artakusuma@hotmail.com</a
+                <a href="mailto:artakusuma@its.ac.id" class="contact-link"
+                title="Lecturer Computer Engineering ITS" >artakusuma@its.ac.id</a
                 >
               </div>
             </li>
@@ -111,7 +111,6 @@
                 <p class="contact-title">Domicile</p>
 
                 <address>
-                  Palu, Central Sulawesi and <br />
                   Surabaya, East Java
                 </address>
               </div>
@@ -121,6 +120,13 @@
           <div class="separator"></div>
 
           <ul class="social-list">
+
+            <li class="social-item">
+              <a href="https://www.its.ac.id/komputer/lecturer-staff/lecturers/arta-kusuma-hernanda/" target="_blank" class="social-link">
+                <ion-icon name="school"></ion-icon>
+              </a>
+            </li>
+
             <li class="social-item">
               <a href="https://www.instagram.com/arta.kusumah/" target="_blank" class="social-link">
                 <ion-icon name="logo-instagram"></ion-icon>
@@ -139,11 +145,11 @@
               </a>
             </li>
 
-            <li class="social-item">
+            <!-- <li class="social-item">
               <a href="https://github.com/partadox" target="_blank" class="social-link">
                 <ion-icon name="logo-github"></ion-icon>
               </a>
-            </li>
+            </li> -->
 
             <li class="social-item">
               <a href="https://play.google.com/store/apps/dev?id=8497634079324571062&hl=en-ID" target="_blank" class="social-link">
@@ -178,12 +184,12 @@
             </li>
 
             <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Blog</button>
+              <a href="https://artakusuma.notion.site/43d7ed86881f4d03bcdf5c78e46079ad?v=b558828dcd554bb39f347be8807182d0&pvs=4" target="_blank" class="navbar-link" >Blog</a>
             </li>
 
-            <li class="navbar-item">
+            <!-- <li class="navbar-item">
               <button class="navbar-link" data-nav-link>Stats</button>
-            </li>
+            </li> -->
           </ul>
         </nav>
 
@@ -198,11 +204,7 @@
 
           <section class="about-text">
             <p>
-              My name is Arta Kusuma Hernanda. I'm a Software Engineer from
-              Surabaya, East Java, currently living in Palu, Central Sulawesi.
-              My work mainly involves research in computer vision and web
-              development. Recently, my research has been focused on
-              implementing deep learning models in medical imaging."
+            My name is Arta Kusuma Hernanda. I am a Lecturer in Computer Engineering Departement at the Institut Teknologi Sepuluh Nopember, Surabaya, specializing in computer vision and computational intelligence. I am also associated with the Telematics and Intelligent Multimedia Laboratory.
             </p>
           </section>
 
@@ -251,14 +253,14 @@
         -->
 
           <section class="clients">
-            <h3 class="h3 clients-title">Skill</h3>
+            <h3 class="h3 clients-title">Research and Publication</h3>
 
             <ul class="clients-list has-scrollbar">
               <li class="clients-item">
-                <a href="#">
+                <a href="https://www.scopus.com/authid/detail.uri?authorId=57216743219" target="_blank">
                   <img
-                    src="public/assets/images/skill/codeigniter-plain-wordmark.svg"
-                    alt="client logo"
+                    src="public/assets/images/research/scopus.png"
+                    alt="Arta Kusuma Hernanda Scopus"
                     height="55"
                     width="55"
                   />
@@ -266,10 +268,10 @@
               </li>
 
               <li class="clients-item">
-                <a href="#">
+                <a href="https://scholar.google.com/citations?user=_N7FXQsAAAAJ&hl=en&oi=ao" target="_blank">
                   <img
-                    src="public/assets/images/skill/javascript-js.svg"
-                    alt="client logo"
+                    src="public/assets/images/research/scholar.png"
+                    alt="Arta Kusuma Hernanda Google Scholar"
                     height="55"
                     width="55"
                   />
@@ -277,10 +279,10 @@
               </li>
 
               <li class="clients-item">
-                <a href="#">
+                <a href="https://orcid.org/0009-0001-6714-8806" target="_blank">
                   <img
-                    src="public/assets/images/skill/nodejs-original.svg"
-                    alt="client logo"
+                    src="public/assets/images/research/orcid.png"
+                    alt="Arta Kusuma Hernanda Orcid"
                     height="55"
                     width="55"
                   />
@@ -288,65 +290,10 @@
               </li>
 
               <li class="clients-item">
-                <a href="#">
+                <a href="https://ieeexplore.ieee.org/author/37087405879" target="_blank">
                   <img
-                    src="public/assets/images/skill/php.svg"
-                    alt="client logo"
-                    height="55"
-                    width="55"
-                  />
-                </a>
-              </li>
-
-              <li class="clients-item">
-                <a href="#">
-                  <img
-                    src="public/assets/images/skill/file-type-cpp3.svg"
-                    alt="client logo"
-                    height="55"
-                    width="55"
-                  />
-                </a>
-              </li>
-
-              <li class="clients-item">
-                <a href="#">
-                  <img
-                    src="public/assets/images/skill/python.svg"
-                    alt="client logo"
-                    height="55"
-                    width="55"
-                  />
-                </a>
-              </li>
-
-              <li class="clients-item">
-                <a href="#">
-                  <img
-                    src="public/assets/images/skill/tensorflow.svg"
-                    alt="client logo"
-                    height="55"
-                    width="55"
-                  />
-                </a>
-              </li>
-
-              <li class="clients-item">
-                <a href="#">
-                  <img
-                    src="public/assets/images/skill/opencv.svg"
-                    alt="client logo"
-                    height="55"
-                    width="55"
-                  />
-                </a>
-              </li>
-
-              <li class="clients-item">
-                <a href="#">
-                  <img
-                    src="public/assets/images/skill/file-type-matlab.svg"
-                    alt="client logo"
+                    src="public/assets/images/research/ieee.png"
+                    alt="Arta Kusuma Hernanda IEEE"
                     height="55"
                     width="55"
                   />
@@ -427,23 +374,6 @@
                 </li>
               <?php endforeach; ?>
             </ol>
-          </section>
-
-          <section class="skill">
-            <h3 class="h3 skills-title">Publication</h3>
-
-            <ul class="skills-list content-card">
-            <?php $npub = 0; ?>
-            <?php foreach($publication as $pub): ?>
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <?php  $npub++; ?>
-                  <a href="<?= esc($pub['link']) ?>" target="_blank" class="h5"><?= $npub ?>. <?= esc($pub['title']) ?> <br> <?= esc($pub['event']) ?></a>
-                </div>
-              </li>
-            <?php endforeach; ?>
-              
-            </ul>
           </section>
         </article>
 

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Arta Kusuma - Personal Website</title>
-    <meta name="description" content="Arta Kusuma - Programer Freelance - Programmer Kota Palu Sulawesi Tengah. ".<?= $title ?> >
+    <meta name="description" content="Arta Kusuma Hernanda - Dosen Teknik Komputer ITS. ".<?= $title ?> >
 
     <!--
     - favicon
@@ -55,7 +55,7 @@
           <div class="info-content">
             <h1 class="name" title="Arta Kusuma">Arta Kusuma H.</h1>
 
-            <p class="title">Software Engineer</p>
+            <p class="title">Lecturer</p>
           </div>
 
           <button class="info_more-btn" data-sidebar-btn>
@@ -77,8 +77,8 @@
               <div class="contact-info">
                 <p class="contact-title">Email</p>
 
-                <a href="mailto:artakusuma@hotmail.com" class="contact-link"
-                  >artakusuma@hotmail.com</a
+                <a href="mailto:artakusuma@its.ac.id" class="contact-link"
+                  >artakusuma@its.ac.id</a
                 >
               </div>
             </li>
@@ -112,8 +112,7 @@
                 <p class="contact-title">Domicile</p>
 
                 <address>
-                  Palu, Central Sulawesi or <br />
-                  Surabya, East Java
+                  Surabaya, East Java
                 </address>
               </div>
             </li>
