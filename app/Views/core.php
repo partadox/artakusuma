@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Arta Kusuma - Personal Website</title>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--
     - favicon
   -->
     <link
       rel="shortcut icon"
-      href="public/assets/images/new-moon-face.svg"
+      href="public/assets/images/artakusuma-favicon.png"
       type="image/x-icon"
     />
 
@@ -45,7 +45,7 @@
         <div class="sidebar-info">
           <figure class="avatar-box">
             <img
-              src="public/assets/images/new-moon-face.svg"
+              src="public/assets/images/artakusuma.png"
               alt="Arta Kusuma - Dosen Teknik Komputer ITS"
               width="80"
             />
@@ -179,15 +179,15 @@
               <button class="navbar-link" data-nav-link>Resume</button>
             </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Portfolio</button>
-            </li>
-
-            <li class="navbar-item">
-              <a href="https://artakusuma.notion.site/43d7ed86881f4d03bcdf5c78e46079ad?v=b558828dcd554bb39f347be8807182d0&pvs=4" target="_blank" class="navbar-link" >Blog</a>
-            </li>
-
             <!-- <li class="navbar-item">
+              <a href="https://artakusuma.notion.site/4db5f52854b7472f813edab7d83591cd?v=f285cfaecb564baf9b13080ea0e789a1&pvs=4" target="_blank" class="navbar-link" data-nav-link>Portfolio<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="https://artakusuma.notion.site/43d7ed86881f4d03bcdf5c78e46079ad?v=b558828dcd554bb39f347be8807182d0&pvs=4" target="_blank" class="navbar-link" >Blog <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </li>
+
+            <li class="navbar-item">
               <button class="navbar-link" data-nav-link>Stats</button>
             </li> -->
           </ul>
@@ -217,33 +217,36 @@
 
             <ul class="service-list">
               <li class="service-item">
-                <div class="service-icon-box">
-                  <ion-icon name="code-slash-outline"></ion-icon>
-                </div>
+                <a href="https://artakusuma.notion.site/4db5f52854b7472f813edab7d83591cd?v=f285cfaecb564baf9b13080ea0e789a1&pvs=4" target="_blank">
+                  <div class="service-icon-box">
+                    <ion-icon name="code-slash-outline"></ion-icon>
+                  </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Web dev</h4>
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Portfolio <i class="fa-solid fa-arrow-up-right-from-square"></i></h4>
 
-                  <p class="service-item-text">
-                    Fullstack development of information systems or other
-                    web-based system.
-                  </p>
-                </div>
+                    <p class="service-item-text">
+                      My Project Showcase.
+                    </p>
+                  </div>
+                </a>
+                
               </li>
 
               <li class="service-item">
-                <div class="service-icon-box">
-                  <ion-icon name="eye-outline"></ion-icon>
-                </div>
+                <a href="https://artakusuma.notion.site/43d7ed86881f4d03bcdf5c78e46079ad?v=b558828dcd554bb39f347be8807182d0&pvs=4" target="_blank">
+                  <div class="service-icon-box">
+                    <ion-icon name="documents-outline"></ion-icon>
+                  </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Computer vision</h4>
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Blog <i class="fa-solid fa-arrow-up-right-from-square"></i></h4>
 
-                  <p class="service-item-text">
-                    Development of computer vision systems for advanced image
-                    processing and analysis.
-                  </p>
-                </div>
+                    <p class="service-item-text">
+                      Article, Tutorial, etc.
+                    </p>
+                  </div>
+                </a>
               </li>
             </ul>
           </section>
