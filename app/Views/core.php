@@ -82,7 +82,7 @@
               </div>
             </li>
 
-            <li class="contact-item">
+            <!-- <li class="contact-item">
               <div class="icon-box">
                 <ion-icon name="man-outline"></ion-icon>
               </div>
@@ -100,7 +100,7 @@
                         echo "<time>". $age . "</time>";
                     ?>
               </div>
-            </li>
+            </li> -->
 
             <li class="contact-item">
               <div class="icon-box">
