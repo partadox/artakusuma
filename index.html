@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Arta Kusuma - Personal Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!--
+        - favicon
+        -->
+        <link
+            rel="shortcut icon"
+            href="assets/artakusuma-favicon.png"
+            type="image/x-icon"
+        />
+
+        <!--
+        - custom css link
+        -->
+        <link rel="stylesheet" href="assets/style.css" />
+
+        <!--
+        - google font link
+        -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+
+    <body>
+        <main>
+            <aside class="sidebar" data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                <img
+                    src="assets/artakusuma.png"
+                    alt="Arta Kusuma - Dosen Teknik Komputer ITS"
+                    width="80"
+                />
+                </figure>
+
+                <div class="info-content">
+                <h1 class="name" title="Arta Kusuma">Arta Kusuma H.</h1>
+
+                <p class="title">Lecturer</p>
+                </div>
+
+                <button class="info_more-btn" data-sidebar-btn>
+                <span>Expand</span>
+
+                <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+
+            <div class="sidebar-info_more">
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+                <li class="contact-item">
+                    <div class="icon-box">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    </div>
+
+                    <div class="contact-info">
+                    <p class="contact-title">Email</p>
+
+                    <a href="mailto:artakusuma@its.ac.id" class="contact-link"
+                    title="Lecturer Computer Engineering ITS" >artakusuma@its.ac.id</a
+                    >
+                    </div>
+                </li>
+
+                <li class="contact-item">
+                    <div class="icon-box">
+                    <ion-icon name="location-outline"></ion-icon>
+                    </div>
+
+                    <div class="contact-info">
+                    <p class="contact-title">Domicile</p>
+
+                    <address>
+                        Surabaya, East Java
+                    </address>
+                    </div>
+                </li>
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+
+                <li class="social-item">
+                    <a href="https://www.its.ac.id/komputer/lecturer-staff/lecturers/arta-kusuma-hernanda/" target="_blank" class="social-link">
+                    <ion-icon name="school"></ion-icon>
+                    </a>
+                </li>
+
+                <li class="social-item">
+                    <a href="https://www.instagram.com/arta.kusumah/" target="_blank" class="social-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </li>
+
+                <li class="social-item">
+                    <a href="https://www.linkedin.com/in/arta-kusuma/" target="_blank" class="social-link">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </li>
+
+                <li class="social-item">
+                    <a href="https://www.youtube.com/@artakusuma" target="_blank" class="social-link">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                    </a>
+                </li>
+
+                <li class="social-item">
+                    <a href="https://play.google.com/store/apps/dev?id=8497634079324571062&hl=en-ID" target="_blank" class="social-link">
+                    <ion-icon name="logo-google-playstore"></ion-icon>
+                    </a>
+                </li>
+                </ul>
+            </div>
+            </aside>
+
+            <!--
+            - #main-content
+        -->
+
+            <div class="main-content">
+            <!--
+            - #NAVBAR
+            -->
+
+            <nav class="navbar">
+                <ul class="navbar-list">
+                <li class="navbar-item">
+                    <button class="navbar-link active" data-nav-link>About</button>
+                </li>
+
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Resume</button>
+                </li>
+                </ul>
+            </nav>
+
+            <!--
+            - #ABOUT
+            -->
+
+            <article class="about active" data-page="about">
+                <header >
+                <h2 class="h2 article-title">About me</h2>
+                </header>
+
+                <section class="about-text">
+                <p>
+                My name is Arta Kusuma Hernanda. I am a Lecturer in Computer Engineering Departement at the Institut Teknologi Sepuluh Nopember, Surabaya, specializing in computer vision and computational intelligence.
+                </p>
+                </section>
+
+                <!--
+                - I'm doing
+            -->
+
+                <section class="service">
+                <h3 class="h3 service-title">What i'm doing</h3>
+
+                <ul class="service-list">
+                    <li class="service-item">
+                    <a href="https://artakusuma.notion.site/4db5f52854b7472f813edab7d83591cd?v=f285cfaecb564baf9b13080ea0e789a1&pvs=4" target="_blank">
+                        <div class="service-icon-box">
+                        <ion-icon name="code-slash-outline"></ion-icon>
+                        </div>
+
+                        <div class="service-content-box">
+                        <h4 class="h4 service-item-title">Portfolio <i class="fa-solid fa-arrow-up-right-from-square"></i></h4>
+
+                        <p class="service-item-text">
+                            My Project Showcase.
+                        </p>
+                        </div>
+                    </a>
+                    
+                    </li>
+
+                    <li class="service-item">
+                    <a href="https://artakusuma.notion.site/43d7ed86881f4d03bcdf5c78e46079ad?v=b558828dcd554bb39f347be8807182d0&pvs=4" target="_blank">
+                        <div class="service-icon-box">
+                        <ion-icon name="documents-outline"></ion-icon>
+                        </div>
+
+                        <div class="service-content-box">
+                        <h4 class="h4 service-item-title">Blog <i class="fa-solid fa-arrow-up-right-from-square"></i></h4>
+
+                        <p class="service-item-text">
+                            Article, Tutorial, etc.
+                        </p>
+                        </div>
+                    </a>
+                    </li>
+                </ul>
+                </section>
+
+                <!--
+                - Skill
+            -->
+
+                <section class="clients">
+                <h3 class="h3 clients-title">Research and Publication</h3>
+
+                <ul class="clients-list has-scrollbar">
+                    <li class="clients-item">
+                    <a href="https://www.scopus.com/authid/detail.uri?authorId=57216743219" target="_blank">
+                        <img
+                        src="assets/scopus.png"
+                        alt="Arta Kusuma Hernanda Scopus"
+                        height="55"
+                        width="55"
+                        />
+                    </a>
+                    </li>
+
+                    <li class="clients-item">
+                    <a href="https://scholar.google.com/citations?user=_N7FXQsAAAAJ&hl=en&oi=ao" target="_blank">
+                        <img
+                        src="assets/scholar.png"
+                        alt="Arta Kusuma Hernanda Google Scholar"
+                        height="55"
+                        width="55"
+                        />
+                    </a>
+                    </li>
+
+                    <li class="clients-item">
+                    <a href="https://orcid.org/0009-0001-6714-8806" target="_blank">
+                        <img
+                        src="assets/orcid.png"
+                        alt="Arta Kusuma Hernanda Orcid"
+                        height="55"
+                        width="55"
+                        />
+                    </a>
+                    </li>
+
+                    <li class="clients-item">
+                    <a href="https://ieeexplore.ieee.org/author/37087405879" target="_blank">
+                        <img
+                        src="assets/ieee.png"
+                        alt="Arta Kusuma Hernanda IEEE"
+                        height="55"
+                        width="55"
+                        />
+                    </a>
+                    </li>
+
+                    
+                </ul>
+                </section>
+            </article>
+
+            <!--
+            - #RESUME
+            -->
+
+            <article class="resume" data-page="resume">
+                <header>
+                <h2 class="h2 article-title">Resume</h2>
+                </header>
+
+                <section class="timeline">
+                <div class="title-wrapper">
+                    <div class="icon-box">
+                    <ion-icon name="book-outline"></ion-icon>
+                    </div>
+
+                    <h3 class="h3">Education</h3>
+                </div>
+
+                <ol class="timeline-list">
+                    <li class="timeline-item">
+                    <h4 class="h4 timeline-item-title">Master's Degree</h4>
+
+                    <span>2021 — 2023</span>
+
+                    <p class="timeline-text">
+                        Departement Electrical Engineering, focus field Multimedia
+                        Intelligent Network. Institut Teknologi Sepuluh Nopember
+                        (ITS), Surabaya. My thesis "3D Reconstruction of Veins in
+                        Ultrasound Image Based on U-Net"
+                    </p>
+                    </li>
+
+                    <li class="timeline-item">
+                    <h4 class="h4 timeline-item-title">Bachelor's Degree</h4>
+
+                    <span>2015 — 2019</span>
+
+                    <p class="timeline-text">
+                        Departement Computer Engineering. Institut Teknologi Sepuluh
+                        Nopember (ITS), Surabaya. My final project "Disease
+                        Classification on Dermoscopic Skin Image using Convolutional
+                        Neural Network (CNN)"
+                    </p>
+                    </li>
+                </ol>
+                </section>
+
+                <section class="timeline">
+                <div class="title-wrapper">
+                    <div class="icon-box">
+                    <ion-icon name="book-outline"></ion-icon>
+                    </div>
+
+                    <h3 class="h3">Experience</h3>
+                </div>
+
+                <ol class="timeline-list">
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Research Assistant - ITS</h4>
+                        <span>2021 — 2023</span>
+                        <p class="timeline-text">
+                        Manage research on Intelligent Teledermatology System for Smart Hospital and Blood Clot Volume Determination System in Deep Vein Thrombosis based on Three Dimensional Ultrasound Image.
+                        </p>
+                    </li>
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Freelance Web Developer</h4>
+                        <span>2017 — 2023</span>
+                        <p class="timeline-text">
+                            Developing website project.
+                        </p>
+                    </li>
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">IT Support - PT Brilliant Jaya Wood Industry</h4>
+                        <span>2019 — 2021</span>
+                        <p class="timeline-text">
+                            Networking installation and maintenance (Mikrotik & Fiber Optic). Software and operating system troubleshooting. Computer and other peripheral maintenance and repair. Server company management and maintenance. Company website profile and System Information developing. CCTV installation and maintenance.
+                        </p>
+                    </li>
+                </ol>
+                </section>
+            </article>
+            </div>
+        </main>
+        <script src="assets/script.js"></script>
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
+    </body>
+</html>
